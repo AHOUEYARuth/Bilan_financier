@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recording page</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+    <h1>Bienvenue sur votre page d'enrégistrement de vos produits</h1>
+    <h3>Remplissez le formulaire ci-dessou</h3>
+     <form action="" id="filed">
+        <label for="name">Nom du produit</label>
+        <input type="text" name="nom" id="name" placeholder="p_name">
+        <label for="unit">Prix Unitaire</label>
+        <input type="number" name="nom" id="unit" placeholder="u_price">
+        <label for="qte">Quantité Totale</label>
+        <input type="number" name="nom" id="qte" placeholder="q_total">
+        <label for="total">pUnit*qTotal</label>
+        <input type="number" name="total" id="total" disabled>
+        <button type="submit">Enrégistrer</button>
+    </form>
+    <div id="erreur_msg"></div>
+    <script src="page1.js"></script>
+</body>
+</html>

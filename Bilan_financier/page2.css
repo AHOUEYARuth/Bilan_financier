@@ -1,0 +1,40 @@
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100vh;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+caption{
+    padding: 10px;
+}
+tr{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black; 
+    padding: 5px; 
+    height: 20px; 
+}
+th{
+    border: 1px solid black; 
+    padding: 5px; 
+}
+.total{
+    margin-top:30px;
+    text-align: center;
+    font-size: 25px;
+    background-color: silver;
+    padding:15px;
+}
